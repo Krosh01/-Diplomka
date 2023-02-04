@@ -17,6 +17,11 @@ html {
     margin: 0 auto;
     padding: 19px 20px;
 }
+@media (max-width:425px){
+    html{
+        overflow-x: hidden;
+    }
+}
 @import './header.scss';
 @import './deliver.scss';
 @import './headerStatic.scss';
@@ -33,3 +38,4 @@ html {
 @import "../pages/showRoom/ShowRoom.scss";
 @import '../pages/Contact/Contact.scss';
 @import '../pages/Primerka/Primerka.scss';
+@import './Stylesnavbar.scss';

@@ -1,8 +1,14 @@
-import React from 'react'
+import React  from 'react'
 import { Link } from 'react-router-dom';
+// import style from './Stylesnavbar.scss';
+// import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { useState } from 'react';
+import burger from '../../assets/Header/burger.svg'
+// import Headerburger from '../Header/Headerburger/Headerburger'
+
 
 const Header = () => {
-  
+  const [nav, setNav] = useState(false);
   return (
     <header className='header'>
       <div className='container'>
@@ -10,11 +16,7 @@ const Header = () => {
           <li>
             <ul className='header__nav-icon'>
               <li className='header__nav-icon_burger'>
-                <div className='header__burger'>
-                  <span className='header__burger-line'></span>
-                  <span className='header__burger-line'></span>
-                  <span className='header__burger-line'></span>
-                </div>
+                <img src={burger} alt="" className="burger-icon" />
               </li>
                 <Link to='/'>
                   <a className='header_inst' href="#">
@@ -24,6 +26,7 @@ const Header = () => {
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8469 5.52449C13.0808 5.52449 12.4492 4.88871 12.4492 4.11594C12.4492 3.31937 13.0808 2.68359 13.8469 2.68359C14.6138 2.68359 15.2454 3.31937 15.2454 4.11594C15.2454 4.88871 14.6138 5.52449 13.8469 5.52449Z" fill="#2F2F2F" />
                     </svg>
                   </a>
+
                 </Link>
                 <a className='header_inst' href="#">
                   <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +67,6 @@ const Header = () => {
                     <p className='header__nav-count'>0</p>
                   </Link>
                 </a>
-               
                 <a className='adapt_icon_2' href="#">
                   <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3.67929 20.8598H0.499023V4.50195H3.73406" stroke="#333333" stroke-miterlimit="3.8637" />
@@ -91,9 +93,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
-    
   );
-  
 };
 
 export default Header;

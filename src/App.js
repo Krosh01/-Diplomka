@@ -8,7 +8,7 @@ import Like from './pages/Like/Like';
 import Zakaz from './pages/Zakaz/Zakaz';
 import './sass/style.scss'
 import Primerka from './pages/Primerka/Primerka';
-// import YandexMaps from './Components/YandexMaps/YandexMaps';
+import Scrolltop from './Components/Scrolltop/Scrolltop';
 
 function App() {
   return (
@@ -24,6 +24,8 @@ function App() {
         <Route path='zakaz' element={<Zakaz/>}/>
       </Route>
     </Routes>
+    <Scrolltop/>
+
     </>
   );
 };

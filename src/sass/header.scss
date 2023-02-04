@@ -1,28 +1,4 @@
 .header {
-    &__burger {
-        position: relative;
-        width: 27px;
-        height: 19px;
-        cursor: pointer;
-        &-line {
-            position: absolute;
-            display: inline-block;
-            width: 100%;
-            height: 1.530px;
-            background: #222222;
-            border-radius: 100px;
-            &:nth-child(1) {
-                top: 0;
-            }
-            &:nth-child(2) {
-                top: 7.06px;
-            }
-            &:nth-child(3) {
-                top: 15px;
-                width: 78%;
-            }
-        }
-    }
     &__nav {
         display: flex;
         column-gap: 15px;
@@ -98,9 +74,11 @@
     .header__nav{
         display: flex;
         justify-content: center;
-       
     }
-    .header__burger{
+    .header__nav-bottom_link{
+      display: none;
+    }
+    .burger-icon{
         transform: translate(70px,0);
     }
     .header_inst{
@@ -115,7 +93,5 @@
     .header__nav-logo{
         transform: translate(-15px,0);
     }
-    .header__nav-bottom{
-        display: none;
-    }
+
 }
