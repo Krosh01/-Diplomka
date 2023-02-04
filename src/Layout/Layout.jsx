@@ -6,7 +6,7 @@ import HeaderStatic from './Header/headerStatic'
 const Layout = () => {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <Outlet/>
     <HeaderStatic/>
     </>

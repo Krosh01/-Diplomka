@@ -4,6 +4,7 @@ import { useContext } from 'react'
 import { CustomContext } from '../../utils/context'
 import { useSelector } from 'react-redux'
 import store from '../../redux'
+import Basket from '../../pages/basket/basket'
 
 const HeaderStatic = () => {
   
@@ -103,6 +104,7 @@ const HeaderStatic = () => {
                 </li>
             </nav>
         </div>
+        <Basket/>
     </header>
   )
 }

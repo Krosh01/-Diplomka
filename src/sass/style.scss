@@ -28,7 +28,11 @@
 html {
     scroll-behavior: smooth;
 }
-
+@media(max-width:425px) {
+    html{
+        overflow-x: hidden;
+    }
+}
 .container {
     max-width: 1250px;
     margin: 0 auto;

@@ -25,6 +25,7 @@
         text-align: center;
         vertical-align: middle;
         max-width: 100%;
+        position: relative;
     }
     &__close {
         cursor: pointer;
@@ -43,6 +44,14 @@
         color: #fff;
         position: relative;
         transition: all .4s ease;
+        @media(max-width:576px) {
+            width: 40px;
+            height: 40px;
+            font-size: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
         &::after {
             content: '';
             position: absolute;
@@ -54,6 +63,9 @@
             background-position: center;
             top: calc(50% - 4px);
             right: 12px;
+            @media(max-width:576px) {
+                right: 13.7px;
+            }
         }
         &:hover {
             opacity: 0.5;
@@ -63,6 +75,15 @@
         padding: 67px 110px;
         background-color: #fff;
         text-align: left;
+        @media(max-width:767px) {
+            padding: 64px 40px
+        }
+        @media(max-width:400px) {
+            padding: 66px 20px
+        }
+        @media(max-width:576px) {
+            padding: 40px 20px
+        }
         &-title {
             font-family: 'FuturaBookC';
             font-size: 30px;
@@ -71,6 +92,11 @@
             font-weight: 600;
             color: #171717;
             margin-bottom: 16px;
+            @media(max-width:992px) {
+                text-align: center;
+                font-size: 20px;
+                line-height: 23px;
+            }
         }
         &-blocks {
             display: flex;
@@ -78,6 +104,10 @@
             padding: 16px 0;
             align-items: center;
             border-bottom: 1px solid #E6E7EB;
+            @media(max-width: 500px) {
+                column-gap: 0;
+                text-align: center;
+            }
             & li {
                 width: 120px;
                 flex-grow: 1;
@@ -87,6 +117,10 @@
                 line-height: 20px;
                 letter-spacing: 0.05em;
                 color: #000000;
+                @media(max-width:400px) {
+                    font-size: 14px;
+                    line-height: normal;
+                }
                 & b {
                     display: inline-block;
                     padding: 2px 4px;
