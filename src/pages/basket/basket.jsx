@@ -13,7 +13,7 @@ const Basket = () => {
 
   return (
     <>
-    <div style={{opacity:`${basket ? '1' : '0'}`,display:`${basket ? 'block' : 'none'}`}} className='basket'></div>
+    <div style={{opacity:`${basket ? '0.76' : '0'}`,display:`${basket ? 'block' : 'none'}`}} className='basket'></div>
     <div style={{top:`${basket ? '0' : '-1200px'}`}} className='basket__content'>
             <div className='basket__content-top'>
                 <div className='basket__content-basket'>Корзина</div>

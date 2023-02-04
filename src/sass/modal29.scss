@@ -18,10 +18,12 @@
     }
     &__main {
         width: 635px;
+        max-width: 100%;
         display: inline-block;
         background-color: transparent;
         text-align: center;
         vertical-align: middle;
+        position: relative;
     }
     &-close {
         cursor: pointer;
@@ -40,6 +42,14 @@
         color: #fff;
         position: relative;
         transition: all .4s ease;
+        @media(max-width:576px) {
+            width: 40px;
+            height: 40px;
+            font-size: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
         &::after {
             content: '';
             position: absolute;
@@ -51,6 +61,9 @@
             background-position: center;
             top: calc(50% - 4px);
             right: 12px;
+            @media(max-width:576px) {
+                right: 13.7px;
+            }
         }
         &:hover {
             opacity: 0.5;
@@ -60,6 +73,9 @@
         background-color: #fff;
         padding: 37px 40px 40px;
         cursor: grabbing;
+        @media(max-width:576px) {
+            padding: 66px 10px 50px;
+        }
         &_radio {
             display: flex;
             justify-content: center;

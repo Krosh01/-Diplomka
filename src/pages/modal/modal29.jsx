@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Modal29 = () => {
   return (
     <section className='md29'>
         <div className='md29__main'>
-            <div className='md29-close' title='Закрыть'>Закрыть</div>
+            <Link to='/'><div className='md29-close' title='Закрыть'>Закрыть</div></Link>
             <div className='md29-body'>
                 <div className='md29-body_title'>ВЫБЕРИТЕ РАЗМЕР</div>
                 <div className='md29-body_radio'>
