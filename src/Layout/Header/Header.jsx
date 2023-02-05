@@ -2,7 +2,6 @@ import React from 'react'
 import { useContext } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import Basket from '../../pages/basket/basket';
 import store from '../../redux';
 import { CustomContext } from '../../utils/context';
 
@@ -97,7 +96,6 @@ const Header = () => {
               <li><a className='header__nav-bottom_link' href="#">КОНТАКТЫ</a></li>
             </nav>
         </div>
-        <Basket/>
     </header>
   )
 }
