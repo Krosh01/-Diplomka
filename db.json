@@ -1,0 +1,348 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "img": "../src/assets/Бублик/catalog/tuxedo/img1.png",
+      "title": "/ Жакет-смокинг с лацканами",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 2,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img2.png",
+      "title": "/ Классический комплект ",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 3,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img3.png",
+      "title": "/ Белый жакет смокинг",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 4,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img5.png",
+      "title": "/ Жакет-смокинг прямой",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 5,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img6.png",
+      "title": "/ Белый смокинг с брюками-клёш",
+      "image": "/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 6,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img7.png",
+      "title": "/ Жакет - смокинг приталенный синий",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 7,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img8.png",
+      "title": "/ Платье-смокинг длинное",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 8,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img9.png",
+      "title": "/ Белый смокинг и брюки с лампасами",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 9,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img10.png",
+      "title": "/ Классический комплект с бабочкой",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 10,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img13.png",
+      "title": "/ Топ с кружевом черный",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 11,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img14.png",
+      "title": "/ Юбка - карандаш",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 12,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img15.png",
+      "title": "/ Блуза с баской",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 13,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img16.png",
+      "title": "/ Брюки зауженные",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 14,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img17.png",
+      "title": "/ Жакет-смокинг с лацканами",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 15,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img18.png",
+      "title": "/ Красный приталенный смокинг",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 16,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img20.png",
+      "title": "/ Костюм бархатый",
+      "image": "/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 17,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img21.png",
+      "title": "/ Жакет-смокинг с лацканами",
+      "image": "/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 18,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img22.png",
+      "title": "/ Жакет-смокинг с лацканами",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "tuxedo",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 19,
+      "img": "/src/assets/Бублик/catalog/tuxedo/img8.png",
+      "title": "/ Платье-смокинг длинное",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "dresses",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 20,
+      "img": "/src/assets/Бублик/catalog/costumes/image.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "suits",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 21,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 21,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image2.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 23,
+      "img": "/catalog/wedding and graduation/image3.png",
+      "title": "/ Костюм классический",
+      "image": "/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 24,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image4.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 25,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image5.png",
+      "title": "/ Костюм классический",
+      "image": "/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 26,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image6.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 27,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image7.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 28,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image8.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 29,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image9.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 30,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image10.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 31,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image11.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+    {
+      "id": 32,
+      "img": "/src/assets/Бублик/catalog/wedding and graduation/image12.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "Wedding and graduation",
+      "text": "Подчеркнет линию талии"
+    },
+
+    {
+      "id": 33,
+      "img": "/src/assets/Бублик/catalog/costumes/image4.png",
+      "title": "/ Костюм классический",
+      "image": "/src/assets/Бублик/catalog/Vector.png",
+      "price": 23900,
+      "category": "suits",
+      "text": "Подчеркнет линию талии"
+    }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "title": "Брюки",
+      "price": 20000,
+      "underPrice": 20000,
+      "count": 1,
+      "image": "/src/assets/Бублик/catalog/costumes/image4.png"
+    },
+    {
+      "id": 2,
+      "title": "Брюки клёш",
+      "size": 48,
+      "price": 20000,
+      "underPrice": 20000,
+      "count": 1,
+      "image": "https://eleanboutique.ru/image/cache/catalog/novinki2022/osen22/06cad9e1-f89a-4c70-a345-87e97190428b-150x200.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Брюки клёш",
+      "size": 50,
+      "price": 11000,
+      "underPrice": 11000,
+      "count": 1,
+      "image": "https://eleanboutique.ru/image/cache/catalog/novinki2021/eleancyclo2702-150x200.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Брюки клёш",
+      "size": 50,
+      "price": 17800,
+      "underPrice": 17800,
+      "count": 1,
+      "image": "https://eleanboutique.ru/image/cache/catalog/novinki2022/obtravki/elean06130-150x200.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Брюки клёш",
+      "size": 49,
+      "price": 20900,
+      "underPrice": 20900,
+      "count": 1,
+      "image": "https://eleanboutique.ru/image/cache/catalog/novinki2022/obtravki/elean018301-150x200.jpg"
+    }
+  ]
+}

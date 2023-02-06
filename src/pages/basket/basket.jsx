@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { useSelector } from 'react-redux'
+import {  useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import store from '../../redux'
 import { CustomContext } from '../../utils/context'
@@ -36,7 +36,6 @@ const Basket = () => {
             </div>}
             {task.length !== 0 && <Link className='basket__content-oform'>ОФОРМИТЬ ЗАКАЗ</Link>}
             {task.length !== 0 && <Link className='basket__content-oform-two'>ЗАКАЗАТЬ В ОДИН КЛИК</Link>}
-            
     </div>
     </>
   )

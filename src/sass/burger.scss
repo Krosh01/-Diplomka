@@ -1,0 +1,217 @@
+.burger {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e1c4a9;
+  overflow: auto;
+  text-align: center;
+  padding: 6px;
+  width: 100%;
+  transition: all 0.9s linear;
+  &__header {
+    padding: 10px 20px;
+    margin: 0 22px;
+    @media(max-width:400px) {
+    margin: 0 15px;
+    padding: 10px 12px;
+    }
+    &-nav {
+      display: flex;
+      justify-content: space-between;
+      &_first {
+        display: flex;
+        align-items: center;
+        &-img {
+          width: 19px;
+          & img {
+            margin: 0 auto;
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        &-a {
+          display: block;
+          margin-left: 20px;
+          position: relative;
+          & a {
+            background: transparent;
+            & img {
+              height: 19px;
+              width: auto;
+              display: block;
+              filter: brightness(5);
+            }
+            & span {
+              top: -9px;
+              right: -5px;
+              font-weight: bold;
+              font-size: 9px;
+              line-height: 11px;
+              color: #fff;
+              position: absolute;
+            }
+          }
+        }
+      }
+      &_second {
+        display: flex;
+        align-items: center;
+        & a {
+          width: 100px;
+          margin: 0;
+          & svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        & div {
+          margin-left: 8px;
+          font-size: 10px;
+          line-height: 10.5px;
+          color: #fff;
+          font-weight: 300;
+          letter-spacing: 0.1em;
+        }
+      }
+      &_third {
+        & a {
+          position: relative;
+          & span {
+            top: -13px;
+            right: -1px;
+            font-weight: bold;
+            font-size: 9px;
+            line-height: 11px;
+            color: #fff;
+            font-family: "Lato", sans-serif;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+  &__main {
+    height: calc(100vh - 174px);
+    overflow-y: auto;
+    margin-top: 70px;
+    &-item {
+      padding: 0;
+      width: auto;
+    }
+    &-items {
+      display: block;
+      width: 100%;
+      padding: 0 20px;
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: left;
+      & li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        & a {
+          padding: 22.5px 0;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          letter-spacing: 0.1em;
+          color: #ffffff;
+          margin: 0;
+          text-transform: uppercase;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+          display: block;
+          width: 100%;
+          position: relative;
+          transition: all 9.4s ease-in-out;
+        }
+      }
+    }
+  }
+  &__socials {
+    display: flex;
+    background-color: #e1c4a9;
+    width: calc(100% + 11px);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -5.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @media(max-width:360px) {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    &-block {
+      padding: 0 5.5px;
+      @media(max-width:400px) {
+        width: 25%;
+      }
+      &_a {
+        outline: none;
+        display: block;
+        padding: 20px 0 12px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #ffffff;
+        width: 85px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 2px;
+        @media(max-width:400px) {
+          width: 100%;
+        }
+      }
+      &_img {
+        display: block;
+        color: #ffffff;
+        line-height: 16px;
+        font-size: 13px;
+        font-weight: normal;
+        text-align: center;
+        & img {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+      }
+      &_socialTitle {
+        display: block;
+        color: #fff;
+        text-align: center;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+    	font-family: 'FuturaBookC';
+      }
+    }
+  }
+}
+
+.a_accordiaon {
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 16px;
+    background-size: 10px 16px;
+    top: calc(50% - 8px);
+    background-image: url("https://eleanboutique.ru/catalog/view/theme/default/assets/img/menu-arrow.svg");
+    background-repeat: no-repeat;
+    transition: all 0.4s;
+  }
+}
+
+@media (max-width: 800px) {
+  .burger {
+    display: block;
+  }
+}

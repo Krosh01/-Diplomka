@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
-import { useContext } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import { CustomContext } from '../../utils/context'
 import { useSelector } from 'react-redux'
 import store from '../../redux'
@@ -10,8 +9,8 @@ const HeaderStatic = () => {
   
   const { basket, setBasket} = useContext(CustomContext)
   const [stickyclass, setStickyclass] = useState('')
+  const { burger,setBurger} = useContext(CustomContext)
   const totalCount = useSelector((store) => store.task.task.reduce((asc, item) => asc + item.count,0))
-
 
   useEffect(() => {
     window.addEventListener('scroll', navBar)
@@ -35,7 +34,7 @@ const HeaderStatic = () => {
                 <li>
                   <ul className='headerS__icons'>
                     <li className='headerS__icons-burger'>
-                      <div className='header__burger'>
+                      <div className='header__burger' onClick={() => setBurger(!burger)}>
                         <span className='header__burger-line'></span>
                         <span className='header__burger-line'></span>
                         <span className='header__burger-line'></span>

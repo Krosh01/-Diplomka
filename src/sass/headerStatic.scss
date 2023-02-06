@@ -7,9 +7,7 @@
     &__nav {
         display: flex;
         justify-content: space-between;
-        @media(max-width:1258px) {
-            margin: 0 25px;
-        }
+        margin: 0 22px;
     }
     &__icons {
         display: flex;
@@ -17,6 +15,10 @@
         column-gap: 25px;
         &-burger {
             margin-right: 17px;
+            position: relative;
+            & span {
+                position: absolute;
+            }
         }
             @media(max-width: 592px) {
                 & li {
