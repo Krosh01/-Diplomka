@@ -12,22 +12,28 @@ const Favorites = () => {
         <h2 className="favorites__title">Избранное</h2>
         <div className="favorites__content">
           <form action="#">
-            {task.map((item) => (
-              <FavoriteItem item={item} />
-            ))}
+            {task.length !== 0 ? (
+              task.map((item) => <FavoriteItem item={item} />)
+            ) : (
+              <div className="favorites__empty">Корзина пуста</div>
+            )}
           </form>
         </div>
-        <div className="favorites__action">
-          <h2 className="favorites__action-title">ДЕЙСТВИЯ НАД ЛИСТОМ ПОЖЕЛАНИЙ </h2>
-          <div className="favorites__action-block">
-            <a href="">ОТПРАВИТЬ НА ПОЧТУ</a>
-            <p>
-              Список товаров находящихся в “избронном”, будет отправлен на ваш
-              электронный адрес, и вы в любой момент сможете получить к нему
-              доступ.
-            </p>
+        {task.length !== 0 && (
+          <div className="favorites__action">
+            <h2 className="favorites__action-title">
+              ДЕЙСТВИЯ НАД ЛИСТОМ ПОЖЕЛАНИЙ{" "}
+            </h2>
+            <div className="favorites__action-block">
+              <a href="">ОТПРАВИТЬ НА ПОЧТУ</a>
+              <p>
+                Список товаров находящихся в “избронном”, будет отправлен на ваш
+                электронный адрес, и вы в любой момент сможете получить к нему
+                доступ.
+              </p>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );

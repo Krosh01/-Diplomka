@@ -1,6 +1,10 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { deleteTask } from "../../../redux/reducers/dataCrad";
 
 const FavoriteItem = ({ item }) => {
+
+  const dispath = useDispatch();
 
   return (
     <div className="favoriteItem">
@@ -14,10 +18,25 @@ const FavoriteItem = ({ item }) => {
         </div>
       </div>
       <div className="favoriteItem__second">
-        <textarea className="favoriteItem__second-textarea" name="" cols="30" rows="10" placeholder="ДОБАВИТЬ КОММЕНТАРИЙ"></textarea>
+        <textarea
+          className="favoriteItem__second-textarea"
+          name=""
+          cols="30"
+          rows="10"
+          placeholder="ДОБАВИТЬ КОММЕНТАРИЙ"
+        ></textarea>
         <div className="favoriteItem__second-links">
-          <a className="favoriteItem__second-links_btn" href="">Купить</a>
-          <a className="favoriteItem__second-links_btn2" href="">Удалить</a>
+          <a className="favoriteItem__second-links_btn" href="">
+            Купить
+          </a>
+          <a
+            className="favoriteItem__second-links_btn2"
+            onClick={() => {
+              dispath(deleteTask(item.id));
+            }}
+          >
+            Удалить
+          </a>
         </div>
       </div>
     </div>
