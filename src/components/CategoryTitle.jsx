@@ -5,7 +5,7 @@ const CategoryTitle = () => {
     const {category} = useContext(CustomContext)
 
   return (
-    <h2 className='categorytitle'>
+     <h2 className='categorytitle'>
         {category === 'novelties' && 'Новинки'}
         {category === 'skirt' && 'Юбки'}
         {category === 'tuxedo' && 'Смокинг'}
@@ -21,6 +21,9 @@ const CategoryTitle = () => {
         {category === 'Wedding and graduation' && 'Свадьба и выпускной'}
 
     </h2>
+    
+    
+   
   )
 }
 

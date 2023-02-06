@@ -14,6 +14,9 @@ const Catalog = () => {
     <selection>
         <div className="container">
             <CategoryTitle/>
+            <p className='catalog-line'>
+
+            </p>
             <div className="catalog__content">
                 <div className="catalog__left">
                     <SideBar/>

@@ -8,11 +8,11 @@ const CatalogRow = () => {
     {
        products.data.map((item)=>(
         <div className='catalog__card'>
-            <img className='catalog__card-img' src={`../${item.img}`} alt={item.title} />
+            <img className='catalog__card-img' src={item.img} alt={item.title} />
+             <img className='catalog__card-image' src={item.image} alt={item.image} />
             <h3 className='catalog__card-title'>{item.title}</h3>
-            <img className='catalog__card-image' src={`../${item.image}`} alt={item.image} />
-            <p className='catalog__card-price'>{item.price}</p>
-            <p className='catalog__card-text'>{item.text}</p>
+            <p className='catalog__card-price'>{item.price} ₽</p>            
+            <p  className='catalog__card-text'>{item.text}</p>
         </div>
        )) 
     }
