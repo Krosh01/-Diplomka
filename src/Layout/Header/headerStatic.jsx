@@ -4,6 +4,7 @@ import { CustomContext } from '../../utils/context'
 import { useSelector } from 'react-redux'
 import store from '../../redux'
 import logo from '../../assets/HeaderStatic/E.png'
+import burgero from '../../assets/Header/burger.svg'
 
 const HeaderStatic = () => {
   
@@ -34,14 +35,10 @@ const HeaderStatic = () => {
                 <li>
                   <ul className='headerS__icons'>
                     <li className='headerS__icons-burger'>
-                      <div className='header__burger' onClick={() => setBurger(!burger)}>
-                        <span className='header__burger-line'></span>
-                        <span className='header__burger-line'></span>
-                        <span className='header__burger-line'></span>
-                      </div>
+                      <img onClick={() => setBurger(!burger)} src={burgero} alt="" />
                     </li>
                     <li>
-                      <Link to='/home'>
+                      <Link to=''>
                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path clip-rule="evenodd" d="M5.59322 18.0494C2.52563 18.0494 0 15.5259 0 12.4346V5.61474C0 2.5227 2.52563 0 5.59322 0H12.3364C15.426 0 17.9296 2.5227 17.9296 5.61474V12.4346C17.9296 15.5259 15.426 18.0494 12.3364 18.0494H5.59322ZM1.82719 5.61556V12.4355C1.82719 14.5266 3.51827 16.2314 5.59322 16.2314H12.3364C14.4105 16.2314 16.1024 14.5266 16.1024 12.4355V5.61556C16.1024 3.52439 14.4105 1.81962 12.3364 1.81962H5.59322C3.51827 1.81962 1.82719 3.52439 1.82719 5.61556Z" fill="#2F2F2F"/>
                         <path clip-rule="evenodd" d="M4.30664 9.02516C4.30664 6.4336 6.40359 4.32031 8.97485 4.32031C11.5461 4.32031 13.6211 6.4336 13.6211 9.02516C13.6211 11.6159 11.5461 13.73 8.97485 13.73C6.40359 13.73 4.30664 11.6159 4.30664 9.02516ZM6.15583 9.02516C6.15583 10.5937 7.41824 11.8661 8.97485 11.8661C10.5086 11.8661 11.7719 10.5937 11.7719 9.02516C11.7719 7.4566 10.5086 6.18338 8.97485 6.18338C7.41824 6.18338 6.15583 7.4566 6.15583 9.02516Z" fill="#2F2F2F"/>

@@ -28,7 +28,7 @@
 html {
     scroll-behavior: smooth;
 }
-@media(max-width:425px) {
+@media(max-width:985px) {
     html{
         overflow-x: hidden;
     }
@@ -50,3 +50,5 @@ html {
 @import './basket.scss';
 @import './basketItem.scss';
 @import './burger.scss';
+@import './favorites.scss';
+@import './favoriteItem.scss';

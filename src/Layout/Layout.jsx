@@ -8,7 +8,7 @@ import HeaderStatic from './Header/headerStatic'
 const Layout = () => {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <Basket/>
     <Outlet/>
     <HeaderStatic/>

@@ -1,12 +1,12 @@
 import React from 'react'
 import Burger from './burger/burger'
-import Deliver from './deliver/deliver copy'
+import Favorites from './Favorites/vavorites'
 
 const Home = () => {
   return (
     <main className='wrapper'>
-      {/* <Deliver/> */}
       {/* <Burger/> */}
+      <Favorites/>
     </main>
   )
 }
