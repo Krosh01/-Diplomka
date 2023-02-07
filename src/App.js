@@ -6,6 +6,7 @@ import Voz from './pages/deliver/deliver copy 2';
 import Pay from './pages/deliver/deliver copy 3';
 import Favorites from './pages/Favorites/vavorites';
 import Home from './pages/home';
+import MakingAnOrder from './pages/MakingAnOrder/MakingAnOrder';
 import './sass/style.scss'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='Voz' element={<Voz/>}/>
         <Route path='Pay' element={<Pay/>}/>
         <Route path='Favorite' element={<Favorites/>}/>
+        <Route path='Making' element={<MakingAnOrder/>}/>
       </Route>
     </Routes>
     </>

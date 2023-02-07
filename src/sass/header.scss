@@ -1,100 +1,99 @@
 .header {
-    &__nav {
+  &__nav {
+    display: flex;
+    column-gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    &-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 40px;
+      margin-top: 30px;
+      &_link {
+        font-size: 14px;
+      }
+      &_link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        margin-left: 50%;
+        background-color: #222222;
+        border-radius: 100px;
+      }
+      &_link:hover::after {
+        transition: 0.3s ease-out;
+        width: 100%;
+        margin: 0;
+      }
+    }
+    &-icon {
+      display: flex;
+      column-gap: 19px;
+      &_burger {
+        margin-right: 50px;
+      }
+    }
+    &-logo {
+      display: flex;
+      column-gap: 4px;
+      align-items: center;
+      padding-left: 45px;
+      &_title {
+        font-size: 10px;
+        color: #8d8d8d;
+        font-weight: 500;
+      }
+    }
+    &-num {
+      display: flex;
+      column-gap: 35px;
+      &-icon {
         display: flex;
-        column-gap: 15px;
-        justify-content: space-between;
+        column-gap: 18px;
         align-items: center;
-        &-bottom {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            column-gap: 40px;
-            margin-top: 30px;
-            &_link {
-                font-size: 14px;
-            }
-            &_link::after {
-                content: '';
-                display: block;
-                width: 0;
-                height: 3px;
-                margin-left:50%;
-                background-color: #222222;
-                border-radius: 100px;
-            }
-            &_link:hover::after {
-                transition: 0.3s ease-out;
-                width: 100%;
-                margin: 0;
-            }
+        position: relative;
+        @media (max-width: 962px) {
+          display: none;
         }
-        &-icon {
-            display: flex;
-            column-gap: 19px;
-            &_burger {
-                margin-right: 50px;
-            }
-        }
-        &-logo {
-            display: flex;
-            column-gap: 4px;
-            align-items: center;
-            padding-left: 45px;
-            &_title {
-                font-size: 10px;
-                color: #8D8D8D;
-                font-weight: 500;
-            }
-        }
-        &-num {
-            display: flex;
-            column-gap: 35px;
-            &-icon {
-                display: flex;
-                column-gap: 18px;
-                align-items: center;
-                position: relative;
-                @media(max-width:962px) {
-                    display: none;
-                }
-            }
-        }
-        &-count {
-            font-size: 13px;
-            font-weight: 700;
-            position: absolute;
-            top: -13px;
-            padding-left: 24px;
-        }
+      }
     }
+    &-count {
+      font-size: 13px;
+      font-weight: 700;
+      position: absolute;
+      top: -13px;
+      padding-left: 24px;
+    }
+  }
 }
-@media (max-width:962px){
-    .container{
-        max-width: 310px;
-        margin: 0 auto;
-        padding: 19px 0px;
-    }
-    .header__nav{
-        display: flex;
-        justify-content: center;
-    }
-    .header__nav-bottom_link{
-      display: none;
-    }
-    .burger-icon{
-        transform: translate(70px,0);
-    }
-    .header_inst{
-        display: none;
-    }
-    .adapt_icon{
-        transform: translate(-310px,0);
-    }
-    .adapt_icon_2{
-        transform: translate(-80px,0);
-    }
-    .header__nav-logo{
-        transform: translate(-50px,0);
-    }
-
+@media (max-width: 962px) {
+  .container {
+    max-width: 310px;
+    margin: 0 auto;
+    padding: 19px 0px;
+  }
+  .header__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .header__nav-bottom_link {
+    display: none;
+  }
+  .burger-icon {
+    transform: translate(70px, 0);
+  }
+  .header_inst {
+    display: none;
+  }
+  .adapt_icon {
+    transform: translate(-310px, 0);
+  }
+  .adapt_icon_2 {
+    transform: translate(-80px, 0);
+  }
+  .header__nav-logo {
+    transform: translate(-50px, 0);
+  }
 }

@@ -34,8 +34,8 @@ const Basket = () => {
                 }
               </div>
             </div>}
-            {task.length !== 0 && <Link className='basket__content-oform'>ОФОРМИТЬ ЗАКАЗ</Link>}
-            {task.length !== 0 && <Link className='basket__content-oform-two'>ЗАКАЗАТЬ В ОДИН КЛИК</Link>}
+            {task.length !== 0 && <Link to='/Favorite' className='basket__content-oform'>ОФОРМИТЬ ЗАКАЗ</Link>}
+            {task.length !== 0 && <Link to='/Making' className='basket__content-oform-two'>ЗАКАЗАТЬ В ОДИН КЛИК</Link>}
     </div>
     </>
   )

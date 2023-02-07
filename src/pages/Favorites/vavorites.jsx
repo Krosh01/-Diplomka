@@ -14,7 +14,7 @@ const Favorites = () => {
             {task.length !== 0 ? (
               task.map((item) => <FavoriteItem item={item} />)
             ) : (
-              <div className="favorites__empty">Корзина пуста</div>
+              <div className="favorites__empty">Избранное пуста</div>
             )}
           </form>
         </div>
