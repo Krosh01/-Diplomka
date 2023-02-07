@@ -5,7 +5,6 @@ import { deleteTask } from "../../../redux/reducers/dataCrad";
 const FavoriteItem = ({ item }) => {
 
   const dispath = useDispatch();
-
   return (
     <div className="favoriteItem">
       <div className="favoriteItem__first">

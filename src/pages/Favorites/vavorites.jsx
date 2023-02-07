@@ -5,7 +5,6 @@ import FavoriteItem from "./FavoriteItem/favoriteItem";
 
 const Favorites = () => {
   const task = useSelector((store) => store.task.task);
-
   return (
     <div className="favorites">
       <div className="container">

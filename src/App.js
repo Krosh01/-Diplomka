@@ -4,6 +4,7 @@ import Deliver from './pages/deliver/deliver';
 import Obmen from './pages/deliver/deliver copy';
 import Voz from './pages/deliver/deliver copy 2';
 import Pay from './pages/deliver/deliver copy 3';
+import Favorites from './pages/Favorites/vavorites';
 import Home from './pages/home';
 import './sass/style.scss'
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='Obmen' element={<Obmen/>}/>
         <Route path='Voz' element={<Voz/>}/>
         <Route path='Pay' element={<Pay/>}/>
+        <Route path='Favorite' element={<Favorites/>}/>
       </Route>
     </Routes>
     </>

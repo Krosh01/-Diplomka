@@ -14,7 +14,7 @@ const Context = (props) => {
   const getProducts = () => {
     axios(`http://localhost:4444/task`)
       .then(({ data }) => setProducts({ ...products, data: data }))
-      .catch((error) => setProducts({ ...products, error: error }));
+      .catch((error) => setProducts({ ...products, error: error }))
   };
 
   const value = {

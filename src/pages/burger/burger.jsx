@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import store from "../../redux";
 import { CustomContext } from "../../utils/context";
 
@@ -89,13 +90,13 @@ const Burger = () => {
               </div>
             </div>
             <div className="burger__header-nav_third">
-              <a href="">
+              <Link to='/Favorite'>
                 <img
                   src="https://eleanboutique.ru/catalog/view/theme/default/assets/img/header-icon-4.svg"
                   alt=""
                 />
                 <span>{totalCount}</span>
-              </a>
+              </Link>
             </div>
           </nav>
           <div className="burger__main">

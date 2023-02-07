@@ -54,7 +54,7 @@
                 column-gap: 18px;
                 align-items: center;
                 position: relative;
-                @media(max-width:925px) {
+                @media(max-width:962px) {
                     display: none;
                 }
             }
@@ -68,7 +68,7 @@
         }
     }
 }
-@media (max-width:925px){
+@media (max-width:962px){
     .container{
         max-width: 310px;
         margin: 0 auto;

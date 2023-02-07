@@ -26,6 +26,9 @@
     &-block {
       display: flex;
       margin-top: 30px;
+      @media(max-width:964px) {
+        flex-direction: column-reverse;
+      }
       & a {
         cursor: pointer;
         font-family: "FuturaBookC";
@@ -42,7 +45,7 @@
         text-transform: uppercase;
         @media (max-width: 992px) {
           width: 100%;
-          margin-top: 20px;
+          margin-top: 50px;
         }
         outline: none;
         border: 1px solid #e3e3e3;
@@ -64,6 +67,10 @@
         font-size: 15px;
         line-height: 23px;
         color: #242424;
+        @media(max-width:992px) {
+          width: 100%;
+          margin-left: 0;
+        }
       }
     }
   }
