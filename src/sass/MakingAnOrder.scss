@@ -1,5 +1,5 @@
 .Making {
-    padding-top: 50px;
+  padding-top: 50px;
   &__title {
     font-family: "FuturaBookC";
     font-weight: normal;
@@ -11,8 +11,181 @@
   }
   &__items {
     margin: 18px 0 40px;
-    border-top: 1px solid #EAEAEA;
-    border-bottom: 1px solid #EAEAEA;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
     padding-bottom: 30px;
+  }
+  &__info {
+    padding: 40px 0;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-form {
+      position: relative;
+      display: flex;
+      align-items: center;
+      & input {
+        display: block;
+        padding: 11.5px 16px;
+        background: #ffffff;
+        border: 1px dashed #bbb9b9;
+        width: 389px;
+        max-width: 100%;
+        background-color: transparent;
+        margin-right: 14px;
+        text-transform: uppercase;
+        font-family: "FuturaBookC";
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 25px;
+        letter-spacing: 0.06em;
+        color: #a6a6a9;
+      }
+      &_error {
+        position: absolute;
+        top: 60px;
+        color: red;
+      }
+      & button {
+        width: 165px;
+        height: 50px;
+        background: #efefef;
+        border-radius: 3px;
+        font-family: "FuturaBookC";
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 0;
+        outline: none;
+        color: #c7c3c3;
+        border: 1px solid transparent;
+        transition: all 0.4s;
+        &:hover {
+          text-decoration: none;
+          color: #222;
+          background-color: #fff;
+          border-color: #222222;
+        }
+      }
+    }
+    &-stock {
+      font-family: "FuturaBookC";
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    &-price {
+      font-family: "FuturaBookC";
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 20px;
+      color: #000000;
+      text-transform: uppercase;
+    }
+  }
+  &__blocks {
+    display: flex;
+    align-items: flex-start;
+    &-left {
+      padding-top: 47px;
+      flex-grow: 1;
+      &_title {
+        font-family: "FuturaBookC";
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        color: #000000;
+      }
+      &_check {
+        &-form {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          & label {
+            position: relative;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+            margin-top: 30px;
+            & input {
+              display: none;
+            }
+            & b {
+              width: 28px;
+              height: 28px;
+              border-radius: 100%;
+              position: relative;
+              min-width: 28px;
+              margin-right: 12px;
+              display: block;
+              border: 1px solid #d0d0d0;
+              &::before {
+                content: "";
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                border-radius: 100%;
+                left: calc(50% - 6px);
+                top: calc(50% - 6px);
+                background: #242424;
+                opacity: 0;
+                transition: all 0.4s;
+              }
+            }
+            & span {
+              font-family: "FuturaBookC";
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 23px;
+              color: #242424;
+              display: block;
+            }
+            & input:checked + b::before {
+              opacity: 1;
+            }
+          }
+        }
+      }
+      &_select {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        &-top {
+          width: calc(50% - 19px);
+          margin: 0;
+          position: relative;
+          user-select: none;
+        }
+      }
+    }
+    &-right {
+      width: 550px;
+      min-width: 550px;
+      margin-left: 99px;
+      padding-top: 92px;
+      & img {
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: 100%;
+      }
+      & p {
+        font-family: "FuturaBookC";
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px;
+        color: #242424;
+        margin-top: 37px;
+        width: 515px;
+        max-width: 100%;
+      }
+    }
   }
 }
